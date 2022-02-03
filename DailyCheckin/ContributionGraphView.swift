@@ -39,7 +39,7 @@ struct ContributionGraphView: View{
             ForEach(days, id: \.date) { day in
                 GithubColor(for: day.dataCount)
                     .frame(width: Self.boxSize, height: Self.boxSize)
-                    .cornerRadius(2)
+                    .cornerRadius(8)
                     .onTapGesture {
                         selectedDay(day)
                     }

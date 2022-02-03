@@ -16,7 +16,43 @@
 		FB63196727ABA010005A670B /* ContributionGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196627ABA010005A670B /* ContributionGraphView.swift */; };
 		FB63196B27ABA4A9005A670B /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196A27ABA4A9005A670B /* DateService.swift */; };
 		FB63196D27ABA502005A670B /* GitHubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196C27ABA502005A670B /* GitHubParser.swift */; };
+		FB63197527ABBF6B005A670B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB63197427ABBF6B005A670B /* WidgetKit.framework */; };
+		FB63197727ABBF6B005A670B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB63197627ABBF6B005A670B /* SwiftUI.framework */; };
+		FB63197A27ABBF6B005A670B /* Checkin_Widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63197927ABBF6B005A670B /* Checkin_Widget.swift */; };
+		FB63197D27ABBF6B005A670B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB63197C27ABBF6B005A670B /* Assets.xcassets */; };
+		FB63197F27ABBF6B005A670B /* Checkin_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FB63197B27ABBF6B005A670B /* Checkin_Widget.intentdefinition */; };
+		FB63198027ABBF6B005A670B /* Checkin_Widget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = FB63197B27ABBF6B005A670B /* Checkin_Widget.intentdefinition */; };
+		FB63198327ABBF6B005A670B /* Checkin WidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FB63197227ABBF6B005A670B /* Checkin WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB63198827ABBFB5005A670B /* GitHubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196C27ABA502005A670B /* GitHubParser.swift */; };
+		FB63198927ABBFBD005A670B /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196A27ABA4A9005A670B /* DateService.swift */; };
+		FB63198A27ABBFC1005A670B /* DevelopmentDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196427AB9FB7005A670B /* DevelopmentDay.swift */; };
+		FB63198B27ABBFCB005A670B /* ContributionGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196627ABA010005A670B /* ContributionGraphView.swift */; };
+		FB63198D27ABC0D3005A670B /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = FB63198C27ABC0D3005A670B /* SwiftSoup */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB63198127ABBF6B005A670B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB1EEEDC27AA864400D8C31D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB63197127ABBF6B005A670B;
+			remoteInfo = "Checkin WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB63198727ABBF6B005A670B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB63198327ABBF6B005A670B /* Checkin WidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		FB1EEEE427AA864400D8C31D /* DailyCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +64,13 @@
 		FB63196627ABA010005A670B /* ContributionGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionGraphView.swift; sourceTree = "<group>"; };
 		FB63196A27ABA4A9005A670B /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
 		FB63196C27ABA502005A670B /* GitHubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubParser.swift; sourceTree = "<group>"; };
+		FB63197227ABBF6B005A670B /* Checkin WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Checkin WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB63197427ABBF6B005A670B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		FB63197627ABBF6B005A670B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		FB63197927ABBF6B005A670B /* Checkin_Widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkin_Widget.swift; sourceTree = "<group>"; };
+		FB63197B27ABBF6B005A670B /* Checkin_Widget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Checkin_Widget.intentdefinition; sourceTree = "<group>"; };
+		FB63197C27ABBF6B005A670B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB63197E27ABBF6B005A670B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +82,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB63196F27ABBF6B005A670B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63197727ABBF6B005A670B /* SwiftUI.framework in Frameworks */,
+				FB63197527ABBF6B005A670B /* WidgetKit.framework in Frameworks */,
+				FB63198D27ABC0D3005A670B /* SwiftSoup in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -46,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				FB1EEEE627AA864400D8C31D /* DailyCheckin */,
+				FB63197827ABBF6B005A670B /* Checkin Widget */,
+				FB63197327ABBF6B005A670B /* Frameworks */,
 				FB1EEEE527AA864400D8C31D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1EEEE427AA864400D8C31D /* DailyCheckin.app */,
+				FB63197227ABBF6B005A670B /* Checkin WidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,12 +117,12 @@
 		FB1EEEE627AA864400D8C31D /* DailyCheckin */ = {
 			isa = PBXGroup;
 			children = (
+				FB1EEEE727AA864400D8C31D /* DailyCheckinApp.swift */,
+				FB1EEEE927AA864400D8C31D /* ContentView.swift */,
 				FB63196627ABA010005A670B /* ContributionGraphView.swift */,
 				FB63196427AB9FB7005A670B /* DevelopmentDay.swift */,
 				FB63196A27ABA4A9005A670B /* DateService.swift */,
 				FB63196C27ABA502005A670B /* GitHubParser.swift */,
-				FB1EEEE927AA864400D8C31D /* ContentView.swift */,
-				FB1EEEE727AA864400D8C31D /* DailyCheckinApp.swift */,
 				FB1EEEEB27AA864600D8C31D /* Assets.xcassets */,
 				FB1EEEED27AA864600D8C31D /* Preview Content */,
 			);
@@ -81,6 +137,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FB63197327ABBF6B005A670B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB63197427ABBF6B005A670B /* WidgetKit.framework */,
+				FB63197627ABBF6B005A670B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB63197827ABBF6B005A670B /* Checkin Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FB63197927ABBF6B005A670B /* Checkin_Widget.swift */,
+				FB63197B27ABBF6B005A670B /* Checkin_Widget.intentdefinition */,
+				FB63197C27ABBF6B005A670B /* Assets.xcassets */,
+				FB63197E27ABBF6B005A670B /* Info.plist */,
+			);
+			path = "Checkin Widget";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,10 +167,12 @@
 				FB1EEEE027AA864400D8C31D /* Sources */,
 				FB1EEEE127AA864400D8C31D /* Frameworks */,
 				FB1EEEE227AA864400D8C31D /* Resources */,
+				FB63198727ABBF6B005A670B /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FB63198227ABBF6B005A670B /* PBXTargetDependency */,
 			);
 			name = DailyCheckin;
 			packageProductDependencies = (
@@ -103,6 +181,26 @@
 			productName = DailyCheckin;
 			productReference = FB1EEEE427AA864400D8C31D /* DailyCheckin.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FB63197127ABBF6B005A670B /* Checkin WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB63198427ABBF6B005A670B /* Build configuration list for PBXNativeTarget "Checkin WidgetExtension" */;
+			buildPhases = (
+				FB63196E27ABBF6B005A670B /* Sources */,
+				FB63196F27ABBF6B005A670B /* Frameworks */,
+				FB63197027ABBF6B005A670B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Checkin WidgetExtension";
+			packageProductDependencies = (
+				FB63198C27ABC0D3005A670B /* SwiftSoup */,
+			);
+			productName = "Checkin WidgetExtension";
+			productReference = FB63197227ABBF6B005A670B /* Checkin WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -115,6 +213,9 @@
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
 					FB1EEEE327AA864400D8C31D = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FB63197127ABBF6B005A670B = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
 				};
@@ -136,6 +237,7 @@
 			projectRoot = "";
 			targets = (
 				FB1EEEE327AA864400D8C31D /* DailyCheckin */,
+				FB63197127ABBF6B005A670B /* Checkin WidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +252,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB63197027ABBF6B005A670B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63197D27ABBF6B005A670B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -159,6 +269,7 @@
 			files = (
 				FB1EEEEA27AA864400D8C31D /* ContentView.swift in Sources */,
 				FB63196D27ABA502005A670B /* GitHubParser.swift in Sources */,
+				FB63198027ABBF6B005A670B /* Checkin_Widget.intentdefinition in Sources */,
 				FB1EEEE827AA864400D8C31D /* DailyCheckinApp.swift in Sources */,
 				FB63196527AB9FB7005A670B /* DevelopmentDay.swift in Sources */,
 				FB63196727ABA010005A670B /* ContributionGraphView.swift in Sources */,
@@ -166,7 +277,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB63196E27ABBF6B005A670B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB63198A27ABBFC1005A670B /* DevelopmentDay.swift in Sources */,
+				FB63197F27ABBF6B005A670B /* Checkin_Widget.intentdefinition in Sources */,
+				FB63198827ABBFB5005A670B /* GitHubParser.swift in Sources */,
+				FB63198B27ABBFCB005A670B /* ContributionGraphView.swift in Sources */,
+				FB63197A27ABBF6B005A670B /* Checkin_Widget.swift in Sources */,
+				FB63198927ABBFBD005A670B /* DateService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB63198227ABBF6B005A670B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB63197127ABBF6B005A670B /* Checkin WidgetExtension */;
+			targetProxy = FB63198127ABBF6B005A670B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		FB1EEEF027AA864600D8C31D /* Debug */ = {
@@ -288,6 +420,7 @@
 		FB1EEEF327AA864600D8C31D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -317,6 +450,7 @@
 		FB1EEEF427AA864600D8C31D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -337,6 +471,60 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ryofuj.DailyCheckin;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB63198527ABBF6B005A670B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LD578K3BS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Checkin Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Checkin Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryofuj.DailyCheckin.Checkin-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB63198627ABBF6B005A670B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LD578K3BS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Checkin Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Checkin Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ryofuj.DailyCheckin.Checkin-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -364,6 +552,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		FB63198427ABBF6B005A670B /* Build configuration list for PBXNativeTarget "Checkin WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB63198527ABBF6B005A670B /* Debug */,
+				FB63198627ABBF6B005A670B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -379,6 +576,11 @@
 
 /* Begin XCSwiftPackageProductDependency section */
 		FB63196227AB9F87005A670B /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB63196127AB9F87005A670B /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+		FB63198C27ABC0D3005A670B /* SwiftSoup */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = FB63196127AB9F87005A670B /* XCRemoteSwiftPackageReference "SwiftSoup" */;
 			productName = SwiftSoup;

@@ -16,7 +16,7 @@ struct ContentView: View {
             ContributionGraphView(days: viewModel.days,
                                   selectedDay: {viewModel.selectedDay = $0})
             if let selectedDay = viewModel.selectedDay{
-                Text("\(DateService.shared.dateFormatter.string(from: selectedDay.date)) contributions on \(selectedDay.dataCount), ")
+                Text("\(selectedDay.dataCount) contributions on, \(DateService.shared.dateFormatter.string(from: selectedDay.date))")
             }
         }
     }
