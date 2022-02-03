@@ -11,6 +11,11 @@
 		FB1EEEEA27AA864400D8C31D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB1EEEE927AA864400D8C31D /* ContentView.swift */; };
 		FB1EEEEC27AA864600D8C31D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1EEEEB27AA864600D8C31D /* Assets.xcassets */; };
 		FB1EEEEF27AA864600D8C31D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1EEEEE27AA864600D8C31D /* Preview Assets.xcassets */; };
+		FB63196327AB9F87005A670B /* SwiftSoup in Frameworks */ = {isa = PBXBuildFile; productRef = FB63196227AB9F87005A670B /* SwiftSoup */; };
+		FB63196527AB9FB7005A670B /* DevelopmentDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196427AB9FB7005A670B /* DevelopmentDay.swift */; };
+		FB63196727ABA010005A670B /* ContributionGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196627ABA010005A670B /* ContributionGraphView.swift */; };
+		FB63196B27ABA4A9005A670B /* DateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196A27ABA4A9005A670B /* DateService.swift */; };
+		FB63196D27ABA502005A670B /* GitHubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB63196C27ABA502005A670B /* GitHubParser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,10 @@
 		FB1EEEE927AA864400D8C31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB1EEEEB27AA864600D8C31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1EEEEE27AA864600D8C31D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FB63196427AB9FB7005A670B /* DevelopmentDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentDay.swift; sourceTree = "<group>"; };
+		FB63196627ABA010005A670B /* ContributionGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributionGraphView.swift; sourceTree = "<group>"; };
+		FB63196A27ABA4A9005A670B /* DateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateService.swift; sourceTree = "<group>"; };
+		FB63196C27ABA502005A670B /* GitHubParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubParser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB63196327AB9F87005A670B /* SwiftSoup in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +61,12 @@
 		FB1EEEE627AA864400D8C31D /* DailyCheckin */ = {
 			isa = PBXGroup;
 			children = (
-				FB1EEEE727AA864400D8C31D /* DailyCheckinApp.swift */,
+				FB63196627ABA010005A670B /* ContributionGraphView.swift */,
+				FB63196427AB9FB7005A670B /* DevelopmentDay.swift */,
+				FB63196A27ABA4A9005A670B /* DateService.swift */,
+				FB63196C27ABA502005A670B /* GitHubParser.swift */,
 				FB1EEEE927AA864400D8C31D /* ContentView.swift */,
+				FB1EEEE727AA864400D8C31D /* DailyCheckinApp.swift */,
 				FB1EEEEB27AA864600D8C31D /* Assets.xcassets */,
 				FB1EEEED27AA864600D8C31D /* Preview Content */,
 			);
@@ -83,6 +97,9 @@
 			dependencies = (
 			);
 			name = DailyCheckin;
+			packageProductDependencies = (
+				FB63196227AB9F87005A670B /* SwiftSoup */,
+			);
 			productName = DailyCheckin;
 			productReference = FB1EEEE427AA864400D8C31D /* DailyCheckin.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +128,9 @@
 				Base,
 			);
 			mainGroup = FB1EEEDB27AA864400D8C31D;
+			packageReferences = (
+				FB63196127AB9F87005A670B /* XCRemoteSwiftPackageReference "SwiftSoup" */,
+			);
 			productRefGroup = FB1EEEE527AA864400D8C31D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,7 +158,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB1EEEEA27AA864400D8C31D /* ContentView.swift in Sources */,
+				FB63196D27ABA502005A670B /* GitHubParser.swift in Sources */,
 				FB1EEEE827AA864400D8C31D /* DailyCheckinApp.swift in Sources */,
+				FB63196527AB9FB7005A670B /* DevelopmentDay.swift in Sources */,
+				FB63196727ABA010005A670B /* ContributionGraphView.swift in Sources */,
+				FB63196B27ABA4A9005A670B /* DateService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +365,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FB63196127AB9F87005A670B /* XCRemoteSwiftPackageReference "SwiftSoup" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/scinfu/SwiftSoup.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FB63196227AB9F87005A670B /* SwiftSoup */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FB63196127AB9F87005A670B /* XCRemoteSwiftPackageReference "SwiftSoup" */;
+			productName = SwiftSoup;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FB1EEEDC27AA864400D8C31D /* Project object */;
 }

@@ -8,20 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
-    let layout = [GridItem(.flexible())]
+    
+    @StateObject var viewModel = ViewModel()
     
     var body: some View {
-        LazyVGrid(columns: layout, spacing: 20){
-            LazyHGrid(rows: layout, spacing: 20){
-                Text("Hello, world!")
-                    .padding()
-                Text("Hello, world!")
-                    .padding()
+        VStack{
+            ContributionGraphView(days: viewModel.days,
+                                  selectedDay: {viewModel.selectedDay = $0})
+            if let selectedDay = viewModel.selectedDay{
+                Text("\(DateService.shared.dateFormatter.string(from: selectedDay.date)) contributions on \(selectedDay.dataCount), ")
             }
-            Text("Hello, world!")
-                .padding()
-            Text("Hello, world!")
-                .padding()
+        }
+    }
+}
+
+extension ContentView {
+    class ViewModel: ObservableObject {
+        @Published var days = [DevelopmentDay]()
+        @Published var selectedDay: DevelopmentDay?
+        
+        init() {
+            getDevelopmentDays()
+        }
+        
+        private func getDevelopmentDays() {
+            GitHubParser.getDevelopmentDays(for: "ryofuj"){
+                [weak self] days in
+                self?.days = days
+            }
         }
     }
 }
