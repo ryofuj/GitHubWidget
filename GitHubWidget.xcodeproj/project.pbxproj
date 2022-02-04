@@ -55,7 +55,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FB1EEEE427AA864400D8C31D /* DailyCheckin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyCheckin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB1EEEE427AA864400D8C31D /* GitHubWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitHubWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB1EEEE727AA864400D8C31D /* DailyCheckinApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCheckinApp.swift; sourceTree = "<group>"; };
 		FB1EEEE927AA864400D8C31D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FB1EEEEB27AA864600D8C31D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 		FB1EEEE527AA864400D8C31D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FB1EEEE427AA864400D8C31D /* DailyCheckin.app */,
+				FB1EEEE427AA864400D8C31D /* GitHubWidget.app */,
 				FB63197227ABBF6B005A670B /* Checkin WidgetExtension.appex */,
 			);
 			name = Products;
@@ -160,9 +160,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FB1EEEE327AA864400D8C31D /* DailyCheckin */ = {
+		FB1EEEE327AA864400D8C31D /* GitHubWidget */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FB1EEEF227AA864600D8C31D /* Build configuration list for PBXNativeTarget "DailyCheckin" */;
+			buildConfigurationList = FB1EEEF227AA864600D8C31D /* Build configuration list for PBXNativeTarget "GitHubWidget" */;
 			buildPhases = (
 				FB1EEEE027AA864400D8C31D /* Sources */,
 				FB1EEEE127AA864400D8C31D /* Frameworks */,
@@ -174,12 +174,12 @@
 			dependencies = (
 				FB63198227ABBF6B005A670B /* PBXTargetDependency */,
 			);
-			name = DailyCheckin;
+			name = GitHubWidget;
 			packageProductDependencies = (
 				FB63196227AB9F87005A670B /* SwiftSoup */,
 			);
 			productName = DailyCheckin;
-			productReference = FB1EEEE427AA864400D8C31D /* DailyCheckin.app */;
+			productReference = FB1EEEE427AA864400D8C31D /* GitHubWidget.app */;
 			productType = "com.apple.product-type.application";
 		};
 		FB63197127ABBF6B005A670B /* Checkin WidgetExtension */ = {
@@ -220,7 +220,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FB1EEEDF27AA864400D8C31D /* Build configuration list for PBXProject "DailyCheckin" */;
+			buildConfigurationList = FB1EEEDF27AA864400D8C31D /* Build configuration list for PBXProject "GitHubWidget" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,7 +236,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FB1EEEE327AA864400D8C31D /* DailyCheckin */,
+				FB1EEEE327AA864400D8C31D /* GitHubWidget */,
 				FB63197127ABBF6B005A670B /* Checkin WidgetExtension */,
 			);
 		};
@@ -440,7 +440,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ryofuj.DailyCheckin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GitHubWidget;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -470,7 +470,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ryofuj.DailyCheckin;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = GitHubWidget;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,7 +487,7 @@
 				DEVELOPMENT_TEAM = LD578K3BS7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Checkin Widget/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Checkin Widget";
+				INFOPLIST_KEY_CFBundleDisplayName = GitHubWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -514,7 +514,7 @@
 				DEVELOPMENT_TEAM = LD578K3BS7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Checkin Widget/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Checkin Widget";
+				INFOPLIST_KEY_CFBundleDisplayName = GitHubWidget;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -534,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FB1EEEDF27AA864400D8C31D /* Build configuration list for PBXProject "DailyCheckin" */ = {
+		FB1EEEDF27AA864400D8C31D /* Build configuration list for PBXProject "GitHubWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB1EEEF027AA864600D8C31D /* Debug */,
@@ -543,7 +543,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FB1EEEF227AA864600D8C31D /* Build configuration list for PBXNativeTarget "DailyCheckin" */ = {
+		FB1EEEF227AA864600D8C31D /* Build configuration list for PBXNativeTarget "GitHubWidget" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FB1EEEF327AA864600D8C31D /* Debug */,

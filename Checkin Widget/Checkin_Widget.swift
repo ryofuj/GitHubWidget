@@ -88,7 +88,7 @@ struct ContributionsGraphWidget: Widget {
         StaticConfiguration(kind: kind, provider: Provider()) { entry in
             WidgetEntryView(entry: entry)
         }
-        .supportedFamilies([.systemSmall, .systemMedium,.systemLarge, .systemExtraLarge])
+        .supportedFamilies([.systemExtraLarge])
         
     }
 }
